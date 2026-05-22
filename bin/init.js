@@ -52,10 +52,18 @@ DevBrain is a local, persistent structural framework for AI agents, acting as th
 4. Read the relevant \`memory.json\` in that agent's directory to see known failures and preferred patterns.
 5. Review the relevant \`.devbrain/project/\` files (like \`PRD.md\` or \`architecture.md\`) for current state.
 
+## 🚨 UNIVERSAL AUTO-MEMORY DIRECTIVE
+**At the end of every single task or conversation, you (the AI Agent) MUST proactively check if you:**
+1. Learned a new project-specific pattern or convention.
+2. Encountered a bug, edge case, or recurring failure.
+3. Made a structural, architectural, or dependency decision.
+
+**If YES to any of the above, you MUST automatically update the relevant \`.devbrain/agents/<domain>/memory.json\` or \`.devbrain/project/\` files BEFORE ending your response.**
+Do not ask the user for permission. Just update the files silently to maintain persistent intelligence.
+
 ## Core Directives for AI Agents
 - **ALWAYS** read the relevant \`SKILL.md\` before starting any task in that domain.
-- **ALWAYS** read \`memory.json\` for that agent before executing — it contains known failures and preferred patterns.
-- **ALWAYS** update \`memory.json\` after any major decision, discovery, or failure.
+- **ALWAYS** read \`memory.json\` for that agent before executing.
 - **NEVER** make architectural changes without first reading \`.devbrain/project/decisions.md\` and \`.devbrain/project/architecture.md\`.
 - **DO NOT** assume project structure — read \`.devbrain/shared/repo-map.md\` first.
 `,

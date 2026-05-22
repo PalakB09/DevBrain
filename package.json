@@ -1,7 +1,7 @@
 {
   "name": "devbrain-init",
-  "version": "1.0.0",
-  "description": "Add a persistent engineering intelligence layer inside any software repository.",
+  "version": "1.0.1",
+  "description": "Scaffold a persistent engineering intelligence layer inside any software repository.",
   "main": "bin/init.js",
   "bin": {
     "devbrain-init": "./bin/init.js"
