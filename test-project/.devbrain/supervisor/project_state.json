@@ -1,0 +1,15 @@
+{
+  "projectName": "test-project",
+  "techStack": "Node.js",
+  "teamSize": "just me",
+  "lastUpdated": "",
+  "activeWorkstreams": [],
+  "recentMilestones": [],
+  "openBlockers": [],
+  "currentPhase": "",
+  "agentMemoryVersions": {
+    "frontend": 0, "backend": 0, "architect": 0,
+    "planner": 0, "testing": 0, "qa": 0,
+    "security": 0, "devops": 0, "docs": 0
+  }
+}

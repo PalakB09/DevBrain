@@ -1,0 +1,4 @@
+# Ignore local testing and generated files
+test-run/
+testing/
+.devbrain/

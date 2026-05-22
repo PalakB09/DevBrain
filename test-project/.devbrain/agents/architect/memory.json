@@ -1,0 +1,12 @@
+{
+  "lastUpdated": "2026-05-22T07:40:44.509Z",
+  "knownIssues": [],
+  "preferredPatterns": [],
+  "recentFailures": [],
+  "architectureNotes": "",
+  "crossReferences": {
+    "decisions": "../../project/decisions.md",
+    "conventions": "../../shared/conventions.md",
+    "skill": "SKILL.md"
+  }
+}

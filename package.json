@@ -1,0 +1,26 @@
+{
+  "name": "devbrain-init",
+  "version": "1.0.0",
+  "description": "Add a persistent engineering intelligence layer inside any software repository.",
+  "main": "bin/init.js",
+  "bin": {
+    "devbrain-init": "./bin/init.js"
+  },
+  "scripts": {
+    "start": "node bin/init.js"
+  },
+  "keywords": [
+    "devbrain",
+    "ai",
+    "agent",
+    "scaffold",
+    "engineering",
+    "intelligence",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

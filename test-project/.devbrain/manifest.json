@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "devbrain": true,
+  "projectName": "test-project",
+  "techStack": "Node.js",
+  "teamSize": "just me",
+  "agents": [
+    "planner",
+    "architect",
+    "frontend",
+    "backend",
+    "testing",
+    "qa",
+    "security",
+    "devops",
+    "docs"
+  ],
+  "agentFiles": {
+    "skill": "SKILL.md",
+    "workflows": "workflows.md",
+    "memory": "memory.json"
+  },
+  "projectFiles": [
+    "PRD.md",
+    "architecture.md",
+    "roadmap.md",
+    "tech-stack.md",
+    "decisions.md"
+  ],
+  "sharedFiles": [
+    "conventions.md",
+    "glossary.md",
+    "repo-map.md"
+  ],
+  "supervisorFiles": [
+    "routing.md",
+    "orchestration.md",
+    "project_state.json"
+  ],
+  "crossReferences": {
+    "architectural changes": ["project/decisions.md", "project/architecture.md", "agents/architect/SKILL.md"],
+    "new features": ["project/PRD.md", "supervisor/routing.md", "agents/planner/SKILL.md"],
+    "deployments": ["agents/devops/SKILL.md", "agents/qa/SKILL.md", "agents/devops/memory.json"],
+    "security review": ["agents/security/SKILL.md", "project/decisions.md"]
+  }
+}
